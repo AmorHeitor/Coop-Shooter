@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Coop_Shooter",
+			"Path": "D:\\Kraken\\Coop-Shooter\\Coop_Shooter\\Source\\Coop_Shooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Coop_ShooterEditor",
+			"Path": "D:\\Kraken\\Coop-Shooter\\Coop_Shooter\\Source\\Coop_ShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

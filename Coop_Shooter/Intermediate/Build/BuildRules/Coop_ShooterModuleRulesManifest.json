@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Kraken\\Coop-Shooter\\Coop_Shooter\\Source\\Coop_Shooter\\Coop_Shooter.Build.cs",
+		"D:\\Kraken\\Coop-Shooter\\Coop_Shooter\\Source\\Coop_Shooter.Target.cs",
+		"D:\\Kraken\\Coop-Shooter\\Coop_Shooter\\Source\\Coop_ShooterEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

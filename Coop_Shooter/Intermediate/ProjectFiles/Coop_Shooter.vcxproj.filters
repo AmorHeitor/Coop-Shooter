@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Coop_Shooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0A78A71E-2F73-4E50-A2BD-FDDC19BE179C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Coop_Shooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Coop_ShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F5FF8148-33DA-49DC-8EB0-A03E1E243438}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Coop_Shooter">
+      <UniqueIdentifier>{0587F7D6-EDA6-4CA3-94D8-2902DAAE301F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Coop_Shooter\Coop_Shooter.Build.cs">
+      <Filter>Source\Coop_Shooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Coop_Shooter\Coop_Shooter.cpp">
+      <Filter>Source\Coop_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Coop_Shooter\Coop_Shooter.h">
+      <Filter>Source\Coop_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Coop_Shooter\Coop_ShooterGameModeBase.cpp">
+      <Filter>Source\Coop_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Coop_Shooter\Coop_ShooterGameModeBase.h">
+      <Filter>Source\Coop_Shooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

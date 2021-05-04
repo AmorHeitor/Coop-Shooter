@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Coop_Shooter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\Coop_ShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Coop_Shooter\Coop_Shooter.cpp.obj"
+"D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Coop_Shooter\Coop_ShooterGameModeBase.cpp.obj"
+"D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Coop_Shooter\Coop_Shooter.init.gen.cpp.obj"
+"D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Coop_Shooter\Coop_ShooterGameModeBase.gen.cpp.obj"
+"D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Coop_Shooter\Default.rc2.res"
+/OUT:"D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Coop_Shooter\UE4Editor-Coop_Shooter.lib"
+/INCLUDE:IMPLEMENT_MODULE_Coop_Shooter

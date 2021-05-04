@@ -1,0 +1,2 @@
+D:\Kraken\Coop-Shooter\Coop_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Coop_Shooter\Definitions.Coop_Shooter.h
+D:\Kraken\Coop-Shooter\Coop_Shooter\Source\Coop_Shooter\Coop_Shooter.h
