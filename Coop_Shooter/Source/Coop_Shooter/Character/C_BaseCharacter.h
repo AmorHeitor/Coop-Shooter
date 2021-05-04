@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "C_BaseCharacter.generated.h"
 
+class UCameraComponent;
+class USpringArmComponent;
+
 UCLASS()
 class COOP_SHOOTER_API AC_BaseCharacter : public ACharacter
 {
@@ -18,6 +21,22 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	void MoveForward(float Direction);
+
+	void MoveRight(float Direction);
+
+	void BeginCrouch();
+
+	void EndCrouch();
+
+	void StartJump();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UCameraComponent* CameraComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USpringArmComponent* SpringArmComp;
 
 public:	
 	// Called every frame
