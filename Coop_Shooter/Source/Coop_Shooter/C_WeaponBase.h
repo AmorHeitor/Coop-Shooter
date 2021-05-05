@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "C_WeaponBase.generated.h"
 
+class USkeletalMeshComponent;
+
 UCLASS()
 class COOP_SHOOTER_API AC_WeaponBase : public AActor
 {
@@ -18,6 +20,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USkeletalMeshComponent* MeshComp;
+
+	UFUNCTION(BlueprintCallable, Category = "Weapons")
+	void Fire();
 
 public:	
 	// Called every frame

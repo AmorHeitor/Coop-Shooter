@@ -88,3 +88,14 @@ void AC_BaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AC_BaseCharacter::StartJump);
 }
 
+//Returns the location of the Camera
+FVector AC_BaseCharacter::GetPawnViewLocation() const
+{
+	if (CameraComp)
+	{
+		return CameraComp->GetComponentLocation();
+	}
+
+	return Super::GetPawnViewLocation();
+}
+
