@@ -7,6 +7,7 @@
 #include "C_WeaponBase.generated.h"
 
 class USkeletalMeshComponent;
+class UDamageType;
 
 UCLASS()
 class COOP_SHOOTER_API AC_WeaponBase : public AActor
@@ -26,6 +27,9 @@ protected:
 
 	UFUNCTION(BlueprintCallable, Category = "Weapons")
 	void Fire();
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	TSubclassOf<UDamageType> DamageType;
 
 public:	
 	// Called every frame
