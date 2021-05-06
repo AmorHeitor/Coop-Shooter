@@ -56,7 +56,7 @@ void AC_WeaponBase::Fire()
 		{
 			AActor* Hitactor = Hit.GetActor();
 
-			UGameplayStatics::ApplyPointDamage(Hitactor, 20.0f,ShotDirection,Hit, MyOwner->GetInstigatorController(), this, DamageType);
+			UGameplayStatics::ApplyPointDamage(Hitactor, DamageValue,ShotDirection,Hit, MyOwner->GetInstigatorController(), this, DamageType);
 
 			if (ImpactEffect)
 			{
